@@ -50,7 +50,7 @@
     height: 100%;
     border-radius: 50%;
     border: 5px solid var(--text-color);
-    background: url(..imagens/profile-photo.png) no-repeat center
+    background: url(imagens/profile-photo.png) no-repeat center
     center/cover;
 }
 

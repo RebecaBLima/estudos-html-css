@@ -8,6 +8,7 @@ main {
     margin: 100px;
     background-color: rgb(86, 211, 86);
     border-radius: 15px;
+    box-shadow: 3px 3px 10px black;
 }
 
 h1 {
