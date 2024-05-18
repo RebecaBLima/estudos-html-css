@@ -25,6 +25,7 @@
     color: var(--text-color);
     font-family: "Rubik", sans-serif;
     overflow: hidden;
+    overflow-y: auto;
 }
 
 #headerVCircle {
@@ -66,7 +67,7 @@
 }
 
 #navMenu a {
-    display:flex;
+    display:block;
     color: var(--text-color);
     text-decoration: none;
     text-transform: uppercase;
@@ -85,6 +86,10 @@
     box-shadow: inset 3px 0 0 var(--details);
 }
 
+a#contactLink{
+    border-bottom: none;
+} 
+
 #navSocial {
     display: flex;
     justify-content: center;
@@ -97,6 +102,7 @@
 #navSocial a {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: var(--text-color);
     border-radius: 50%;
@@ -117,6 +123,12 @@ main {
     color: var(--text-color);
     font-family: "Rubik", sans-serif;
     text-align:justify;
+}
+
+section#sectionInicio {
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
 }
 
 section#sectionInicio h1 {
